@@ -1,0 +1,17 @@
+[2026-06-22T00:13:44.134+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: financial_to_azure.fetch_forex manual__2026-06-22T00:01:41+00:00 [None]>
+[2026-06-22T00:13:44.143+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: financial_to_azure.fetch_forex manual__2026-06-22T00:01:41+00:00 [None]>
+[2026-06-22T00:13:44.144+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-06-22T00:13:44.146+0000] {taskinstance.py:2250} WARNING - cannot record queued_duration for task fetch_forex because previous state change time has not been saved
+[2026-06-22T00:13:44.160+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): fetch_forex> on 2026-06-22 00:01:41+00:00
+[2026-06-22T00:13:44.168+0000] {standard_task_runner.py:60} INFO - Started process 215 to run task
+[2026-06-22T00:13:44.173+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'financial_to_azure', 'fetch_forex', 'manual__2026-06-22T00:01:41+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/financial_to_azure.py', '--cfg-path', '/tmp/tmpus4sgbv5']
+[2026-06-22T00:13:44.386+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask fetch_forex
+[2026-06-22T00:13:44.438+0000] {task_command.py:423} INFO - Running <TaskInstance: financial_to_azure.fetch_forex manual__2026-06-22T00:01:41+00:00 [running]> on host 4cd975914fdf
+[2026-06-22T00:13:44.514+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ibraheem' AIRFLOW_CTX_DAG_ID='financial_to_azure' AIRFLOW_CTX_TASK_ID='fetch_forex' AIRFLOW_CTX_EXECUTION_DATE='2026-06-22T00:01:41+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-22T00:01:41+00:00'
+[2026-06-22T00:13:44.890+0000] {logging_mixin.py:188} INFO - ✅ EUR/USD: 1.14671629
+[2026-06-22T00:13:45.174+0000] {logging_mixin.py:188} INFO - ❌ USD/EGP: {'Information': 'Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints'}
+[2026-06-22T00:13:45.461+0000] {logging_mixin.py:188} INFO - ❌ GBP/USD: {'Information': 'Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints'}
+[2026-06-22T00:13:45.482+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-22T00:13:45.496+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=financial_to_azure, task_id=fetch_forex, execution_date=20260622T000141, start_date=20260622T001344, end_date=20260622T001345
+[2026-06-22T00:13:45.552+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-22T00:13:45.699+0000] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

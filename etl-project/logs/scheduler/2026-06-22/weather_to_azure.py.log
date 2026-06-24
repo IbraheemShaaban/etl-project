@@ -1,0 +1,77 @@
+[2026-06-22T00:00:11.103+0000] {processor.py:161} INFO - Started process (PID=1171) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:00:11.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:00:11.109+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:00:11.109+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:00:11.277+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:00:11.317+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:00:11.317+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:00:11.348+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:00:11.348+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:00:11.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.278 seconds
+[2026-06-22T00:00:41.797+0000] {processor.py:161} INFO - Started process (PID=1186) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:00:41.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:00:41.805+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:00:41.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:00:42.001+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:00:42.018+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:00:42.017+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:00:42.048+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:00:42.048+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:00:42.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.286 seconds
+[2026-06-22T00:01:12.462+0000] {processor.py:161} INFO - Started process (PID=1201) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:01:12.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:01:12.470+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:01:12.469+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:01:12.643+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:01:12.889+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:01:12.888+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:01:12.917+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:01:12.917+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:01:12.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.488 seconds
+[2026-06-22T00:01:43.373+0000] {processor.py:161} INFO - Started process (PID=1216) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:01:43.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:01:43.399+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:01:43.398+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:01:43.595+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:01:43.628+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:01:43.627+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:01:43.661+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:01:43.661+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:01:43.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.335 seconds
+[2026-06-22T00:02:14.143+0000] {processor.py:161} INFO - Started process (PID=1231) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:02:14.146+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:02:14.152+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:02:14.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:02:14.347+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:02:14.366+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:02:14.365+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:02:14.410+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:02:14.410+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:02:14.452+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.318 seconds
+[2026-06-22T00:02:44.844+0000] {processor.py:161} INFO - Started process (PID=1246) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:02:44.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:02:44.851+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:02:44.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:02:45.026+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:02:45.261+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:02:45.260+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:02:45.291+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:02:45.291+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:02:45.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.477 seconds
+[2026-06-22T00:03:15.665+0000] {processor.py:161} INFO - Started process (PID=1261) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:03:15.667+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:03:15.672+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:03:15.671+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:03:15.887+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:03:15.950+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:03:15.948+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:03:15.983+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:03:15.983+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:03:16.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.353 seconds
+[2026-06-22T00:03:46.376+0000] {processor.py:161} INFO - Started process (PID=1276) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:03:46.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:03:46.382+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:03:46.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:03:46.523+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:03:46.540+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:03:46.539+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:03:46.570+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:03:46.570+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:03:46.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.224 seconds
+[2026-06-22T00:04:16.982+0000] {processor.py:161} INFO - Started process (PID=1291) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:04:16.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:04:16.989+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:04:16.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:04:17.196+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:04:17.446+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:04:17.445+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:04:17.480+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:04:17.480+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:04:17.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.533 seconds
+[2026-06-22T00:04:47.825+0000] {processor.py:161} INFO - Started process (PID=1306) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:04:47.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:04:47.830+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:04:47.830+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:04:47.982+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:04:48.020+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:04:48.019+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:04:48.057+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:04:48.057+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:04:48.085+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.267 seconds
+[2026-06-22T00:05:18.452+0000] {processor.py:161} INFO - Started process (PID=1321) to work on /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:05:18.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/weather_to_azure.py for tasks to queue
+[2026-06-22T00:05:18.459+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:05:18.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:05:18.647+0000] {processor.py:840} INFO - DAG(s) 'financial_to_azure' retrieved from /opt/airflow/dags/weather_to_azure.py
+[2026-06-22T00:05:18.668+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:05:18.667+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2026-06-22T00:05:18.702+0000] {logging_mixin.py:188} INFO - [2026-06-22T00:05:18.702+0000] {dag.py:3820} INFO - Setting next_dagrun for financial_to_azure to 2026-06-18T18:00:00+00:00, run_after=2026-06-19T18:00:00+00:00
+[2026-06-22T00:05:18.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/weather_to_azure.py took 0.292 seconds

@@ -1,0 +1,25 @@
+[2026-06-22T02:04:49.650+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: azure_to_snowflake.refresh_staging manual__2026-06-22T02:01:41.586464+00:00 [queued]>
+[2026-06-22T02:04:49.659+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: azure_to_snowflake.refresh_staging manual__2026-06-22T02:01:41.586464+00:00 [queued]>
+[2026-06-22T02:04:49.660+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-06-22T02:04:49.676+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): refresh_staging> on 2026-06-22 02:01:41.586464+00:00
+[2026-06-22T02:04:49.687+0000] {standard_task_runner.py:60} INFO - Started process 1108 to run task
+[2026-06-22T02:04:49.692+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'azure_to_snowflake', 'refresh_staging', 'manual__2026-06-22T02:01:41.586464+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/azure_to_snowflake.py', '--cfg-path', '/tmp/tmpxky9xo_g']
+[2026-06-22T02:04:49.696+0000] {standard_task_runner.py:88} INFO - Job 26: Subtask refresh_staging
+[2026-06-22T02:04:49.771+0000] {task_command.py:423} INFO - Running <TaskInstance: azure_to_snowflake.refresh_staging manual__2026-06-22T02:01:41.586464+00:00 [running]> on host 2dd081fc6bc2
+[2026-06-22T02:04:49.865+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ibraheem' AIRFLOW_CTX_DAG_ID='azure_to_snowflake' AIRFLOW_CTX_TASK_ID='refresh_staging' AIRFLOW_CTX_EXECUTION_DATE='2026-06-22T02:01:41.586464+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-22T02:01:41.586464+00:00'
+[2026-06-22T02:04:49.868+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-6.18.33.1-microsoft-standard-WSL2-x86_64-with-glibc2.34
+[2026-06-22T02:04:49.870+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2026-06-22T02:04:50.412+0000] {cursor.py:1028} INFO - query: [CREATE OR REPLACE TABLE FINANCIAL_DW.STAGING.STOCKS_CLEAN AS SELECT *, ROUND(CLO...]
+[2026-06-22T02:04:52.548+0000] {cursor.py:1041} INFO - query execution done
+[2026-06-22T02:04:52.550+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-06-22T02:04:52.551+0000] {logging_mixin.py:188} INFO - ✅ STAGING.STOCKS_CLEAN محدّثة
+[2026-06-22T02:04:52.552+0000] {cursor.py:1028} INFO - query: [CREATE OR REPLACE TABLE FINANCIAL_DW.STAGING.FOREX_CLEAN AS SELECT *, CONCAT(FRO...]
+[2026-06-22T02:04:52.982+0000] {cursor.py:1041} INFO - query execution done
+[2026-06-22T02:04:52.983+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2026-06-22T02:04:52.985+0000] {logging_mixin.py:188} INFO - ✅ STAGING.FOREX_CLEAN محدّثة
+[2026-06-22T02:04:52.986+0000] {connection.py:718} INFO - closed
+[2026-06-22T02:04:53.067+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2026-06-22T02:04:53.148+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-22T02:04:53.165+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=azure_to_snowflake, task_id=refresh_staging, execution_date=20260622T020141, start_date=20260622T020449, end_date=20260622T020453
+[2026-06-22T02:04:53.204+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-22T02:04:53.230+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

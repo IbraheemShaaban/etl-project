@@ -1,0 +1,16 @@
+[2026-06-22T18:00:05.851+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: financial_to_azure.upload_to_azure scheduled__2026-06-19T18:00:00+00:00 [queued]>
+[2026-06-22T18:00:05.861+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: financial_to_azure.upload_to_azure scheduled__2026-06-19T18:00:00+00:00 [queued]>
+[2026-06-22T18:00:05.862+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-06-22T18:00:05.878+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): upload_to_azure> on 2026-06-19 18:00:00+00:00
+[2026-06-22T18:00:05.885+0000] {standard_task_runner.py:60} INFO - Started process 3195 to run task
+[2026-06-22T18:00:05.890+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'financial_to_azure', 'upload_to_azure', 'scheduled__2026-06-19T18:00:00+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/financial_to_azure.py', '--cfg-path', '/tmp/tmppuhe__yz']
+[2026-06-22T18:00:05.893+0000] {standard_task_runner.py:88} INFO - Job 33: Subtask upload_to_azure
+[2026-06-22T18:00:05.970+0000] {task_command.py:423} INFO - Running <TaskInstance: financial_to_azure.upload_to_azure scheduled__2026-06-19T18:00:00+00:00 [running]> on host 2dd081fc6bc2
+[2026-06-22T18:00:06.071+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ibraheem' AIRFLOW_CTX_DAG_ID='financial_to_azure' AIRFLOW_CTX_TASK_ID='upload_to_azure' AIRFLOW_CTX_EXECUTION_DATE='2026-06-19T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-19T18:00:00+00:00'
+[2026-06-22T18:00:06.125+0000] {base.py:83} INFO - Using connection ID 'azure_blob_connection' for task execution.
+[2026-06-22T18:00:06.549+0000] {logging_mixin.py:188} INFO - 🎉 اترفع: financial/raw_20260622_180006.json
+[2026-06-22T18:00:06.551+0000] {logging_mixin.py:188} INFO -    Stocks: 0 | Forex: 2
+[2026-06-22T18:00:06.553+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-22T18:00:06.566+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=financial_to_azure, task_id=upload_to_azure, execution_date=20260619T180000, start_date=20260622T180005, end_date=20260622T180006
+[2026-06-22T18:00:06.625+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-22T18:00:06.646+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

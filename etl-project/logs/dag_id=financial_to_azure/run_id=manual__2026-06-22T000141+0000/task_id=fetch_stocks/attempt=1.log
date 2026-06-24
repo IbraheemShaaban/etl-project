@@ -1,0 +1,19 @@
+[2026-06-22T00:05:59.686+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: financial_to_azure.fetch_stocks manual__2026-06-22T00:01:41+00:00 [None]>
+[2026-06-22T00:05:59.695+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: financial_to_azure.fetch_stocks manual__2026-06-22T00:01:41+00:00 [None]>
+[2026-06-22T00:05:59.696+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-06-22T00:05:59.697+0000] {taskinstance.py:2250} WARNING - cannot record queued_duration for task fetch_stocks because previous state change time has not been saved
+[2026-06-22T00:05:59.711+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): fetch_stocks> on 2026-06-22 00:01:41+00:00
+[2026-06-22T00:05:59.718+0000] {standard_task_runner.py:60} INFO - Started process 125 to run task
+[2026-06-22T00:05:59.723+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'financial_to_azure', 'fetch_stocks', 'manual__2026-06-22T00:01:41+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/financial_to_azure.py', '--cfg-path', '/tmp/tmpstn8315p']
+[2026-06-22T00:05:59.928+0000] {standard_task_runner.py:88} INFO - Job 2: Subtask fetch_stocks
+[2026-06-22T00:05:59.989+0000] {task_command.py:423} INFO - Running <TaskInstance: financial_to_azure.fetch_stocks manual__2026-06-22T00:01:41+00:00 [running]> on host 4cd975914fdf
+[2026-06-22T00:06:00.078+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ibraheem' AIRFLOW_CTX_DAG_ID='financial_to_azure' AIRFLOW_CTX_TASK_ID='fetch_stocks' AIRFLOW_CTX_EXECUTION_DATE='2026-06-22T00:01:41+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-22T00:01:41+00:00'
+[2026-06-22T00:06:00.685+0000] {logging_mixin.py:188} INFO - ✅ AAPL: $298.0100
+[2026-06-22T00:06:01.252+0000] {logging_mixin.py:188} INFO - ❌ GOOGL: {'Information': 'Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints'}
+[2026-06-22T00:06:01.863+0000] {logging_mixin.py:188} INFO - ✅ MSFT: $379.4000
+[2026-06-22T00:06:02.174+0000] {logging_mixin.py:188} INFO - ❌ AMZN: {'Information': 'Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints'}
+[2026-06-22T00:06:02.468+0000] {logging_mixin.py:188} INFO - ❌ TSLA: {'Information': 'Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints'}
+[2026-06-22T00:06:02.485+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-22T00:06:02.501+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=financial_to_azure, task_id=fetch_stocks, execution_date=20260622T000141, start_date=20260622T000559, end_date=20260622T000602
+[2026-06-22T00:06:02.550+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-22T00:06:02.702+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check

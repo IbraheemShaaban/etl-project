@@ -1,0 +1,16 @@
+[2026-06-22T18:00:01.728+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: financial_to_azure.fetch_forex scheduled__2026-06-19T18:00:00+00:00 [queued]>
+[2026-06-22T18:00:01.741+0000] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: financial_to_azure.fetch_forex scheduled__2026-06-19T18:00:00+00:00 [queued]>
+[2026-06-22T18:00:01.742+0000] {taskinstance.py:2171} INFO - Starting attempt 1 of 3
+[2026-06-22T18:00:01.766+0000] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): fetch_forex> on 2026-06-19 18:00:00+00:00
+[2026-06-22T18:00:01.779+0000] {standard_task_runner.py:60} INFO - Started process 3193 to run task
+[2026-06-22T18:00:01.784+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'financial_to_azure', 'fetch_forex', 'scheduled__2026-06-19T18:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/financial_to_azure.py', '--cfg-path', '/tmp/tmp2jf3ij6h']
+[2026-06-22T18:00:01.789+0000] {standard_task_runner.py:88} INFO - Job 31: Subtask fetch_forex
+[2026-06-22T18:00:01.901+0000] {task_command.py:423} INFO - Running <TaskInstance: financial_to_azure.fetch_forex scheduled__2026-06-19T18:00:00+00:00 [running]> on host 2dd081fc6bc2
+[2026-06-22T18:00:02.026+0000] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='ibraheem' AIRFLOW_CTX_DAG_ID='financial_to_azure' AIRFLOW_CTX_TASK_ID='fetch_forex' AIRFLOW_CTX_EXECUTION_DATE='2026-06-19T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-06-19T18:00:00+00:00'
+[2026-06-22T18:00:02.619+0000] {logging_mixin.py:188} INFO - ✅ EUR/USD: 1.14323242
+[2026-06-22T18:00:03.353+0000] {logging_mixin.py:188} INFO - ❌ USD/EGP: {'Information': 'Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints'}
+[2026-06-22T18:00:03.785+0000] {logging_mixin.py:188} INFO - ✅ GBP/USD: 1.32458718
+[2026-06-22T18:00:03.807+0000] {python.py:201} INFO - Done. Returned value was: None
+[2026-06-22T18:00:03.824+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=financial_to_azure, task_id=fetch_forex, execution_date=20260619T180000, start_date=20260622T180001, end_date=20260622T180003
+[2026-06-22T18:00:03.888+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-06-22T18:00:03.926+0000] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
